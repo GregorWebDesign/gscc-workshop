@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:useDefaultMargins="true"
+    tools:context="au.edu.catholic.goodshepherd.myapplication.AccelBarsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/orientation"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accelX" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Space
+                    android:id="@+id/barXPositiveSpace"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="fill_parent" />
+                <View
+                    android:id="@+id/barXPositive"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="#aaf"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:id="@+id/barXNegative"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="#77d"/>
+                <Space
+                    android:id="@+id/barXNegativeSpace"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/accelX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accelY" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Space
+                    android:id="@+id/barYPositiveSpace"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="fill_parent" />
+                <View
+                    android:id="@+id/barYPositive"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="#afa"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:id="@+id/barYNegative"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="#7d7"/>
+                <Space
+                    android:id="@+id/barYNegativeSpace"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/accelY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accelZ" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Space
+                    android:id="@+id/barZPositiveSpace"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="fill_parent" />
+                <View
+                    android:id="@+id/barZPositive"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="#faa"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:id="@+id/barZNegative"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="#d77"/>
+                <Space
+                    android:id="@+id/barZNegativeSpace"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/accelZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

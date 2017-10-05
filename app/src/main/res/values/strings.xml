@@ -5,4 +5,17 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="accelX">X: Acceleration from the Left to the Right</string>
+    <string name="accelY">Y: Acceleration from the Top to the Bottom</string>
+    <string name="accelZ">Z: Acceleration from the Face to the Rear</string>
+
+    <string name="orientationXPositive">The device has its right side facing up.</string>
+    <string name="orientationXNegative">The device has its left side facing up.</string>
+    <string name="orientationYPositive">The device is standing up.</string>
+    <string name="orientationYNegative">The device is upside-down.</string>
+    <string name="orientationZPositive">The device is facing the ceiling.</string>
+    <string name="orientationZNegative">The device is facing the floor.</string>
+
+    <string name="orientationUnsure">The device is not flat enough to be sure.</string>
 </resources>
